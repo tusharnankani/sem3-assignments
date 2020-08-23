@@ -5,7 +5,10 @@ int i, j, n, a[50], num;
 
 void welcome()
 {
+    // welcome message;
     printf("\nWELCOME TO THE ARRAY MANIPULATION CENTER!\n");
+
+    // array to be manipulated;
     printf("\nEnter the size of the array:\t");
     scanf("%d", &n);
     printf("Enter the %d elements of the array:\t", n);
@@ -15,6 +18,7 @@ void welcome()
 
 void options()
 {
+    // Operations;
     printf("\nNow, enter the operation number you want to perform with this array: \n");
     printf("0. Search\n");
     printf("1. Insert\n");
@@ -120,7 +124,7 @@ int cont()
 
 void end()
 {
-    printf("Thank you for using our services!\nSee you again!\n");
+    printf("\nThank you for using our services!\nSee you again!\n");
 }
 
 void main()
@@ -128,6 +132,7 @@ void main()
     welcome();
    
     int t = 1;
+    // loop until the user stops;
     while(t)
     {
         options();
