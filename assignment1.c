@@ -6,7 +6,7 @@ int i, j, n, a[50], num;
 void welcome()
 {
     // welcome message;
-    printf("\nWELCOME TO THE ARRAY MANIPULATION CENTER!\n");
+    printf("\nWELCOME TO THE STACK MANIPULATION CENTER!\n");
 
     // array to be manipulated;
     printf("\nEnter the size of the array:\t");
