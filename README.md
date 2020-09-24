@@ -1,1 +1,1 @@
-# sem3-assignments
+# Sem 3 Assignments
