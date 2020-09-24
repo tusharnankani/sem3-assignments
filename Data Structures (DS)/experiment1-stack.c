@@ -57,7 +57,7 @@ void pop(struct stack *s)
 {
     int popped;
     if(isEmpty(s))
-    printf("\n The stack in empty-Underflow Condition");
+        printf("\n The stack in empty-Underflow Condition");
     else
     {
         popped = s->data[s->top--];

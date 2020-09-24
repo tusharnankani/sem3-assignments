@@ -6,7 +6,7 @@ int i, j, n, a[50], num;
 void welcome()
 {
     // welcome message;
-    printf("\nWELCOME TO THE STACK MANIPULATION CENTER!\n");
+    printf("\nWELCOME TO THE ARRAY MANIPULATION CENTER!\n");
 
     // array to be manipulated;
     printf("\nEnter the size of the array:\t");
@@ -90,7 +90,7 @@ void merge()
         scanf("%d", &b[i]);
     for(i = n; i < n + m; i++)
         a[i] = b[i - n];
-    
+
     printf("The size of the merged array is %d.\n", n + m);
     for(i = 0; i < n + m; i++)
         printf("%d ", a[i]);
@@ -130,7 +130,7 @@ void end()
 void main()
 {
     welcome();
-   
+
     int t = 1;
     // loop until the user stops;
     while(t)
@@ -153,7 +153,7 @@ void main()
             case 4:
                 sort();
                 break;
-            
+
             default:
                 printf("Option not valid!");
         }
