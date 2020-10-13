@@ -3,13 +3,13 @@ class marks
 {
       public static void main(String ar[])throws IOException
       {
-            	int marks;
+		int marks;
 		char grade = 'F';
-            	
  		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
 		System.out.println("Enter the student's marks: ");
 		marks=Integer.parseInt(br.readLine());
+
 		if(marks > 90 && marks <= 100)
 			grade = 'A';
 		else if(marks > 80 && marks <= 90)
@@ -19,11 +19,11 @@ class marks
 		else if(marks > 60 && marks <= 70)
 			grade = 'D';
 		else if(marks >= 0 && marks <= 60)
-			grade = 'E';
+			grade = 'F';
 		else{
 			System.out.println("INAVALID MARKS");
 			System.exit(0);
 		}
-		System.out.println("Grade: " + grade);
+		System.out.println("\nGrade: " + grade);
       }
 }
