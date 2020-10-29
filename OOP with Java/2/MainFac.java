@@ -26,10 +26,10 @@ class Factorial
 class MainFac{
 
 	public static void main(String ar[])throws IOException
-      	{
-            	Factorial ans = new Factorial();
+	{
+		Factorial ans = new Factorial();
 		ans.getNum();
 		ans.fact();
 		ans.printf();
-      	}
+	}
 }

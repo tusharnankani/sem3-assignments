@@ -21,7 +21,7 @@ class marks
 		else if(marks >= 0 && marks <= 60)
 			grade = 'F';
 		else{
-			System.out.println("INAVALID MARKS");
+			System.out.println("INVALID MARKS");
 			System.exit(0);
 		}
 		System.out.println("\nGrade: " + grade);
